@@ -11,11 +11,11 @@ _G.FishItConfig = _G.FishItConfig or {
             -- {Tier = "Secret", Variant = "Leviathan Rage"},  -- Tier + Variant
         },
 
-        ["Auto Accept Trade"] = false,
+        ["Auto Accept Trade"] = true,
         ["Auto Friend Request"] = false,
     },
     ["Auto Trade"] = {
-        ["Enabled"] = true,
+        ["Enabled"] = false,
         ["Whitelist Username"] = {"MaskedDarkLaw0"},
         ["Category Fish"] = {
             "Secret",
