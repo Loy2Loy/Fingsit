@@ -15,7 +15,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Friend Request"] = false,
     },
     ["Auto Trade"] = {
-        ["Enabled"] = true,
+        ["Enabled"] = false,
         ["Whitelist Username"] = {"MaskedDarkLaw0"},
         ["Category Fish"] = {
             "Secret",
@@ -96,11 +96,11 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
     ["Enchant"] = {
-        ["Auto Enchant"] = false,
-        ["Roll Enchant"] = false,
+        ["Auto Enchant"] = true,
+        ["Roll Enchant"] = true,
         ["Evolved Roll Enchant"] = false,
         ["Enchant List"] = {
-            "Reeler II",
+            "Reeler I",
             "SECRET Hunter",
             "Shark Hunter",
             "Mutation Hunter III",
