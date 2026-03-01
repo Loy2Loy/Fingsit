@@ -40,10 +40,10 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Sell Every"] = 100,
     },
     ["Doing Quest"] = {
-        ["Auto Ghostfinn Rod"] = false,
-        ["Auto Element Rod"] = false,
-        ["Auto Diamond Rod"] = false,
-        ["Unlock Ancient Ruin"] = false,
+        ["Auto Ghostfinn Rod"] = true,
+        ["Auto Element Rod"] = true,
+        ["Auto Diamond Rod"] = true,
+        ["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
             "Ghost Shark",
             "Cryoshade Glider",
@@ -121,7 +121,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Ghostfinn Rod",
     },
     ["Bait List"] = {
-        ["Auto Buying"] = false,
+        ["Auto Buying"] = true,
         ["Buy List"] = {
             "Midnight Bait",
             "Chroma Bait",
@@ -131,7 +131,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Endgame"] = "",
     },
     ["Rod List"] = {
-        ["Auto Buying"] = false,
+        ["Auto Buying"] = true,
         ["Buy List"] = {
             "Grass Rod",
             "Midnight Rod",
