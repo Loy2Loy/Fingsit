@@ -35,7 +35,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Target"] = 190000,
     },
     ["Selling"] = {
-        ["Auto Sell"] = false,
+        ["Auto Sell"] = true,
         ["Auto Sell Threshold"] = "Legendary",
         ["Auto Sell Every"] = 100,
     },
