@@ -15,7 +15,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Friend Request"] = false,
     },
     ["Auto Trade"] = {
-        ["Enabled"] = true,
+        ["Enabled"] = false,
         ["Whitelist Username"] = {"MaskedDarkLaw0"},
         ["Category Fish"] = {
             "Secret",
@@ -35,15 +35,15 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Target"] = 190000,
     },
     ["Selling"] = {
-        ["Auto Sell"] = false,
-        ["Auto Sell Threshold"] = "Legendary",
+        ["Auto Sell"] = true,
+        ["Auto Sell Threshold"] = "Mythic",
         ["Auto Sell Every"] = 100,
     },
     ["Doing Quest"] = {
-        ["Auto Ghostfinn Rod"] = false,
-        ["Auto Element Rod"] = false,
-        ["Auto Diamond Rod"] = false,
-        ["Unlock Ancient Ruin"] = false,
+        ["Auto Ghostfinn Rod"] = true,
+        ["Auto Element Rod"] = true,
+        ["Auto Diamond Rod"] = true,
+        ["Unlock Ancient Ruin"] = true,
         ["Allowed Sacrifice"] = {
             "Ghost Shark",
             "Cryoshade Glider",
@@ -96,11 +96,11 @@ _G.FishItConfig = _G.FishItConfig or {
         },
     },
     ["Enchant"] = {
-        ["Auto Enchant"] = false,
-        ["Roll Enchant"] = false,
+        ["Auto Enchant"] = true,
+        ["Roll Enchant"] = true,
         ["Evolved Roll Enchant"] = false,
         ["Enchant List"] = {
-            "Reeler II",
+            "Reeler I",
             "SECRET Hunter",
             "Shark Hunter",
             "Mutation Hunter III",
@@ -121,7 +121,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Ghostfinn Rod",
     },
     ["Bait List"] = {
-        ["Auto Buying"] = false,
+        ["Auto Buying"] = true,
         ["Buy List"] = {
             "Midnight Bait",
             "Chroma Bait",
@@ -131,7 +131,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Endgame"] = "",
     },
     ["Rod List"] = {
-        ["Auto Buying"] = false,
+        ["Auto Buying"] = true,
         ["Buy List"] = {
             "Grass Rod",
             "Midnight Rod",
@@ -149,7 +149,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
 
     ["ExtremeFpsBoost"] = false,
-    ["UltimatePerformance"] = true,
+    ["UltimatePerformance"] = false,
     ["Disable3DRender"] = false,
     ["AutoRemovePlayer"] = true,
     ["AutoReconnect"] = false,
